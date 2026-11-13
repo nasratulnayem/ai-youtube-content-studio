@@ -117,5 +117,3 @@ This project is a comprehensive, Flask-based web application designed to automat
 │   └── upload.html         # Thumbnail uploader page.
 └───credentials/            # Stores OAuth tokens for authenticated YouTube channels.
 ```
-
-<!-- Reference note for README and options behavior -->
