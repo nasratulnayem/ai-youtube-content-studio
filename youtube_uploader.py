@@ -151,3 +151,9 @@ def upload_video(youtube_service, file_path, title, description, tags=None, firs
         ).execute()
 
     return video_id
+
+def is_valid_loadchannelconfig_payload(data, min_len: int = 1) -> bool:
+    """Check whether load_channel_config payload contains usable entries."""
+    if not data:
+        return False
+    return len(data) >= min_len
